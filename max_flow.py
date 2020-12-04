@@ -32,7 +32,7 @@ def maxflow(g,g_map,s,t,V):
 
     # przechodzę po ścieżce i szukam wagi ścieżki
     c = t
-    while c!=s:https://github.com/anetaporebska/P-obiektowe-lab2/tree/lab5
+    while c!=s:
       path_flow=min(path_flow, g_map[(parent[c],c)])
       c = parent[c]
 
